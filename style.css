@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+
+h1 {
+    margin-left: 350px;
+    margin-top: 30px;
+    font-size: 70px; 
+
+
+}
+
+.images {
+
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 20px;
+    margin-left: 100px;
+    column-gap: 20px;
+    position: absolute;
+    margin-top: 150px;
+
+
+}
+    
+
+
+.second-background{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(214, 211, 192);
+    width: 1050px;
+    height: 1400px;
+    margin-left: 450px;
+    position: relative;
+    margin-top: 60px;
+    border-radius: 20px;
+
+
+}
+
+
+ .back{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1800px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    /* position: fixed; */
+ }
+
+
+ .end{
+    margin-top: 800px;
+    width: 700px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 170px;
+    padding-top: 10px;
+    padding-left:  30px; ;
+    border-radius: 20px;
+
+ }
+
+
+ .Email{
+  width: 250px;
+  height: 30px;
+
+ }
+ .Password{
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
+ #Name{
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+ }
+ #Surname{
+    width: 180px;
+    height: 30px;
+
+ }
+ h2{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 250px;
+ }
+
+.name-surname {
+    margin-bottom: 20px;
+}
+button{
+    width: 120px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 250px;
+    background-color: crimson;
+    color: white;
+    margin-top: 10px;
+    border: none;
+}
